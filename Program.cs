@@ -1,21 +1,29 @@
-﻿
-
-class Result
+﻿class Result
 {
-    public static List<int> rotLeft(List<int> a, int d)
+    public static List<int> rotLeft(List<int> numbers, int rotations)
     {
-        int val0 = a[0];
+        int[] values = new int[rotations];
+        int aEnd = numbers.Count;
 
-        for (int i = 1; i < a.Count; i++)
+        for (int i = 0; i < rotations; i++)
         {
-            a[i - 1] = a[i];
+            values[i] = numbers[i];
         }
 
-        a[a.Count - 1] = val0;
+        for (int j = rotations; j < aEnd; j++)
+        {
+            numbers[j - rotations] = numbers[j];
+        }
 
-        return a;
+        int currentRotatedValue = 0;
+        for (int rotation = aEnd - rotations; rotation < aEnd; rotation++)
+        {
+            numbers[rotation] = values[currentRotatedValue];
+            currentRotatedValue++;
+        }
+
+        return numbers;
     }
-
 }
 
 class Solution
@@ -26,15 +34,11 @@ class Solution
 
         int n = Convert.ToInt32(firstMultipleInput[0]);
 
-        int d = Convert.ToInt32(firstMultipleInput[1]);
+        int rotations = Convert.ToInt32(firstMultipleInput[1]);
 
         List<int> a = Console.ReadLine().TrimEnd().Split(' ').ToList().Select(aTemp => Convert.ToInt32(aTemp)).ToList();
 
-        List<int> result = new();
-        for (int i = 0; i < d; i++)
-        {
-            result = Result.rotLeft(a, d);
-        }
+        List<int> result = Result.rotLeft(a, rotations);
 
         Console.WriteLine(String.Join(" ", result));
     }
