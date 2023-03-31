@@ -1,0 +1,15 @@
+C:\VS\HackerRank\HR25\bin\Debug\net7.0\HR25.exe
+C:\VS\HackerRank\HR25\bin\Debug\net7.0\HR25.deps.json
+C:\VS\HackerRank\HR25\bin\Debug\net7.0\HR25.runtimeconfig.json
+C:\VS\HackerRank\HR25\bin\Debug\net7.0\HR25.dll
+C:\VS\HackerRank\HR25\bin\Debug\net7.0\HR25.pdb
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.csproj.AssemblyReference.cache
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.GeneratedMSBuildEditorConfig.editorconfig
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.AssemblyInfoInputs.cache
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.AssemblyInfo.cs
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.csproj.CoreCompileInputs.cache
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.dll
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\refint\HR25.dll
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.pdb
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\HR25.genruntimeconfig.cache
+C:\VS\HackerRank\HR25\obj\Debug\net7.0\ref\HR25.dll
